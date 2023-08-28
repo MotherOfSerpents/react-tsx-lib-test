@@ -1,6 +1,6 @@
 {
   "name": "tsx-react-lib-test-dodi",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "My very first test of packaging lib with rollup",
   "scripts": {
     "rollup": "rollup -c"
