@@ -1,11 +1,10 @@
 import React from 'react';
 
 interface ButtonProps {
-    variant: 'primary' | 'secondary' | 'outline';
-    text: string;
+    children: React.ReactNode[]
 }
 
-const Button = (props: ButtonProps) => {
+const Button = ({children}: ButtonProps): React.JSX.Element => {
 
     return (
         <button
@@ -15,7 +14,7 @@ const Button = (props: ButtonProps) => {
                 borderRadius: '4px',
             }}
         >
-            {props.text}
+            {children}
         </button>
     )
 };
